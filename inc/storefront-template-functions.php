@@ -696,3 +696,11 @@ if ( ! function_exists( 'storefront_header_container_close' ) ) {
 		echo '</div>';
 	}
 }
+
+function crdtheme_scripts_styles() {
+
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/dist/css/style.css' );
+	wp_enqueue_style( 'smartphone', get_template_directory_uri() . '/dist/css/smartphone.css' );
+}
+// File d'attente des styles et des scripts
+add_action( 'wp_enqueue_scripts', 'crdtheme_scripts_styles' );

@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="20.4737" height="23" rx="2.5" stroke="#FAFAFA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2105 23.9999H21C22.6569 23.9999 24 22.6568 24 20.9999V4.33325C24 2.6764 22.6569 1.33325 21 1.33325H20.2105V2.33325H21C22.1046 2.33325 23 3.22868 23 4.33325V20.9999C23 22.1045 22.1046 22.9999 21 22.9999H20.2105V23.9999Z" fill="#FAFAFA"/>
+<line x1="12.6316" y1="23.5" x2="20.2105" y2="23.5" stroke="#FAFAFA"/>
+<rect x="2.52632" y="4" width="16.4211" height="2.66667" fill="#FAFAFA"/>
+<rect x="2.52632" y="8" width="6.31579" height="5.33333" fill="#FAFAFA"/>
+<rect x="10.1053" y="8" width="3.78947" height="2.66667" fill="#FAFAFA"/>
+<rect x="15.1579" y="8" width="3.78947" height="2.66667" fill="#FAFAFA"/>
+<rect x="10.1053" y="12" width="3.78947" height="1.33333" fill="#FAFAFA"/>
+<rect x="2.52632" y="14.6667" width="6.31579" height="2.66667" fill="#FAFAFA"/>
+<rect x="2.52632" y="18.6667" width="6.31579" height="1.33333" fill="#FAFAFA"/>
+<rect x="10.1053" y="14.6667" width="3.78947" height="2.66667" fill="#FAFAFA"/>
+<rect x="10.1053" y="18.6667" width="3.78947" height="1.33333" fill="#FAFAFA"/>
+<rect x="15.1579" y="12" width="3.78947" height="1.33333" fill="#FAFAFA"/>
+<rect x="15.1579" y="14.6667" width="3.78947" height="2.66667" fill="#FAFAFA"/>
+<rect x="15.1579" y="18.6667" width="3.78947" height="1.33333" fill="#FAFAFA"/>
+</svg>

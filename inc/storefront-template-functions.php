@@ -704,3 +704,5 @@ function crdtheme_scripts_styles() {
 }
 // File d'attente des styles et des scripts
 add_action( 'wp_enqueue_scripts', 'crdtheme_scripts_styles' );
+
+

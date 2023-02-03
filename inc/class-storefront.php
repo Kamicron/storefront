@@ -128,7 +128,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 				apply_filters(
 					'storefront_custom_background_args',
 					array(
-						'default-color' => apply_filters( 'storefront_default_background_color', 'ffffff' ),
+						'default-color' => apply_filters( 'storefront_default_background_color', 'FAFAFAFAFAFA' ),
 						'default-image' => '',
 					)
 				)
@@ -534,7 +534,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 					padding: .857em 1.387em !important;
 					font-weight: 600;
 					background-color: <?php echo esc_attr( $accent_color ); ?>;
-					color: #fff !important;
+					color: #FAFAFA !important;
 					border: 0 !important;
 					line-height: 1;
 					border-radius: 0 !important;

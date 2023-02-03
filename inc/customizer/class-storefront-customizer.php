@@ -48,24 +48,24 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			return apply_filters(
 				'storefront_setting_default_values',
 				$args = array(
-					'storefront_heading_color'           => '#333333',
+					'storefront_heading_color'           => '#1C1514',
 					'storefront_text_color'              => '#6d6d6d',
 					'storefront_accent_color'            => '#7f54b3',
 					'storefront_hero_heading_color'      => '#000000',
 					'storefront_hero_text_color'         => '#000000',
-					'storefront_header_background_color' => '#ffffff',
+					'storefront_header_background_color' => '#FAFAFA',
 					'storefront_header_text_color'       => '#404040',
-					'storefront_header_link_color'       => '#333333',
+					'storefront_header_link_color'       => '#FAFAFA',
 					'storefront_footer_background_color' => '#f0f0f0',
-					'storefront_footer_heading_color'    => '#333333',
+					'storefront_footer_heading_color'    => '#1C1514',
 					'storefront_footer_text_color'       => '#6d6d6d',
-					'storefront_footer_link_color'       => '#333333',
+					'storefront_footer_link_color'       => '#1C1514',
 					'storefront_button_background_color' => '#eeeeee',
-					'storefront_button_text_color'       => '#333333',
-					'storefront_button_alt_background_color' => '#333333',
-					'storefront_button_alt_text_color'   => '#ffffff',
+					'storefront_button_text_color'       => '#1C1514',
+					'storefront_button_alt_background_color' => '#1C1514',
+					'storefront_button_alt_text_color'   => '#FAFAFA',
 					'storefront_layout'                  => 'right',
-					'background_color'                   => 'ffffff',
+					'background_color'                   => 'FAFAFA',
 				)
 			);
 		}
@@ -645,7 +645,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 					 * @package  storefront
 					 * @since    2.0.0
 					 */
-					'default'           => apply_filters( 'storefront_default_button_text_color', '#ffffff' ),
+					'default'           => apply_filters( 'storefront_default_button_text_color', '#FAFAFAFAFAFA' ),
 					'sanitize_callback' => 'sanitize_hex_color',
 				)
 			);
@@ -707,7 +707,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 					 * @package  storefront
 					 * @since    2.0.0
 					 */
-					'default'           => apply_filters( 'storefront_default_button_alt_text_color', '#ffffff' ),
+					'default'           => apply_filters( 'storefront_default_button_alt_text_color', '#FAFAFAFAFAFA' ),
 					'sanitize_callback' => 'sanitize_hex_color',
 				)
 			);

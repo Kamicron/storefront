@@ -1069,8 +1069,8 @@ if ( ! class_exists( 'Storefront_NUX_Starter_Content' ) ) :
 
 			if ( ! empty( $hero ) ) {
 				$cover = '
-					<!-- wp:cover {"url":"{{hero-image-url}}","id":{{hero-image-id}},"dimRatio":0,"customOverlayColor":"#ffffff","align":"full"} -->
-					<div class="wp-block-cover alignfull" style="background-image:url({{hero-image-url}});background-color:#ffffff"><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"center"} -->
+					<!-- wp:cover {"url":"{{hero-image-url}}","id":{{hero-image-id}},"dimRatio":0,"customOverlayColor":"#FAFAFAFAFAFA","align":"full"} -->
+					<div class="wp-block-cover alignfull" style="background-image:url({{hero-image-url}});background-color:#FAFAFAFAFAFA"><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"center"} -->
 					<h1 style="text-align:center">' . __( 'Welcome', 'storefront' ) . '</h1>
 					<!-- /wp:heading -->
 

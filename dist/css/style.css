@@ -193,3 +193,11 @@ nav {
   color: #FAFAFA;
 }
 /* ========= Fin header boutique ========= */
+
+.woocommerce-products-header__title {
+  text-transform: uppercase;
+  color: #CF3476;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}

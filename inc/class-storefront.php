@@ -94,6 +94,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 					array(
 						'primary'   => __( 'Primary Menu', 'storefront' ),
 						'secondary' => __( 'Secondary Menu', 'storefront' ),
+						'footer' => __( 'Menu footer', 'storefront' ),
 						'handheld'  => __( 'Handheld Menu', 'storefront' ),
 					)
 				)

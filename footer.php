@@ -29,37 +29,7 @@
 				 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
 				 */
 				wp_nav_menu(array(
-					'theme_location' => 'footer-propos',
-					'container'      => false,
-					'menu_class'     => 'menu__list',
-					'depth'          => 2,
-					'walker'         => new MyCustom_Walker_Nav_Menu()
-				));
-				?>
-			</nav>
-			<nav class="footer__menu menu" id="mainNav" aria-label="Menu principal">
-				<?php
-				/**
-				 * wp_nav_menu() permet d'intégrer un menu de worpress avec ces paramètres
-				 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
-				 */
-				wp_nav_menu(array(
-					'theme_location' => 'footer-service',
-					'container'      => false,
-					'menu_class'     => 'menu__list',
-					'depth'          => 2,
-					'walker'         => new MyCustom_Walker_Nav_Menu()
-				));
-				?>
-			</nav>
-			<nav class="footer__menu menu" id="mainNav" aria-label="Menu principal">
-				<?php
-				/**
-				 * wp_nav_menu() permet d'intégrer un menu de worpress avec ces paramètres
-				 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
-				 */
-				wp_nav_menu(array(
-					'theme_location' => 'footer-legale',
+					'theme_location' => 'footer',
 					'container'      => false,
 					'menu_class'     => 'menu__list',
 					'depth'          => 2,
